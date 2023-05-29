@@ -1,5 +1,16 @@
 package Overriding;
 
 public class RBI {
-	//jimijjimi
+
+public double getHomeLoanROI() {
+
+return 8.5;
 }
+
+public double getCarLoanROI() {
+	return 10.5;
+}
+public RBI getObject() {
+	RBI obj = new RBI();
+	return obj;
+}}
